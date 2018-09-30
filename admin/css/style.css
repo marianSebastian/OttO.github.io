@@ -1,0 +1,149 @@
+body{
+    background-color: white;
+    font-family: verdana, geneva, sans-serif;
+    margin: 0;
+    padding: 1%;
+    box-sizing: border-box; !important
+}
+
+#header{
+    background-color: bisque;
+    height: 40px;
+    width: 100%;
+}
+
+#leftside{
+    width: 25%;
+    height: 500px;
+    margin-left: 0.2%;
+    margin-top: 2%;
+    background-color: bisque;
+    float: left;
+}
+
+#leftside h3{
+    font-weight: bold;
+    color: red;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: white;
+    border-radius: 3px;
+}
+
+#leftside ul{
+    list-style-type: none;
+    margin-top: 1%;
+}
+
+#leftside ul li{
+    height: 30px;
+    line-height: 30px;
+    border-radius: 3px;
+}
+
+#leftside ul li:hover{
+    background: white;
+}
+
+#leftside ul li a{
+    display: block;
+    text-decoration: none;
+    font-size: 15px;
+    color: red;
+    padding-left: 3%;
+}
+
+#rightside{
+    width: 73.6%;
+    min-height: 500px;
+    margin-left: 1%;
+    margin-top: 2%;
+    background-color: bisque;
+    float: left;
+    padding-bottom: 2%;
+   
+}
+
+#rightside h3{
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-bottom: 3px solid red;
+}
+
+#rightside form table{
+    width: 95%;
+    margin: auto;
+}
+
+#rightside form table tr td{
+    width: 50%;
+    height: 35px;
+    padding-left: 2.5%; 
+}
+
+#rightside form table tr td input{
+    width: 100%;
+    height: 30px;
+    border-radius: 3px;
+    border: 2px solid black;
+    padding-left: 2%;
+}
+
+#rightside form button{
+    width: 200px;
+    border-radius: 3px;
+    background-color: grey;
+    height: 30px;
+    color: red;
+    margin-top: 2%;
+    font-weight: bold;
+}
+
+#rightside form button:hover{
+    background-color: bisque;
+}
+
+#rightside form table tr td select{
+    width: 100%;
+    height: 30px;
+    border-radius: 3px;
+    border: 2px solid black;
+    padding-left: 2%;
+}
+
+#rightside form table tr th{
+    color: black;
+    text-align: left;
+    background: bisque;
+    height: 40px;
+    padding: 0 2% 0 2%;
+    box-sizing: border-box;
+}
+
+#rightside form table tr td a{
+    color: red;
+    text-decoration: none;
+}
+
+#add_cat{
+    margin-top: 20px;
+    border-top: 3px solid red;
+}  
+
+.products{
+    overflow-x: scroll;
+}
+
+.products form table tr th{
+    font-size: 14px !important;
+    background: white !important;
+    
+}
+
+.products form table tr td{
+    min-width: 150px;
+    height: 35px;   
+    padding-left: 2% !important;
+}
